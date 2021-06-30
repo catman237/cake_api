@@ -19,11 +19,11 @@ We need a few standard cakes for anyone to purchase. Add a cakes table to the da
 ### Part 2: Building routes, actions, and models
 Our customers need to know what cakes we have. They also need to be able to order new cakes. Plus, we need to be able to change information about existing cakes, and remove a cake if it's no longer being made. To do that, we'll need a route for each action. We'll also need a controller to place our actions. Code so each action runs the way we want it too. Finally, a model to represent our cake -connected to our database. You will need 5 actions to handle all these requests:
 
-* get all cakes
-* get a single cake by its id
-* add a new cake
-* change an existing cake
-* remove a cake
+<!-- * get all cakes -->
+<!-- * get a single cake by its id -->
+<!-- * add a new cake -->
+<!-- * change an existing cake -->
+<!-- * remove a cake -->
 
 # Debugging and Testing Rails
 * You will need Postman or the like to test all your requests. If you don't test your requests and responses, then you haven't completed the assessment.

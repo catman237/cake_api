@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Cake.destroy_all
+
+cake1 = Cake.create(flavor: "Chocolate", price: 8.49)
+cake2 = Cake.create(flavor: "Vanilla", price: 9.89)
+cake3 = Cake.create(flavor: "PBJ", price: 5.29)
